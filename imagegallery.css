@@ -7,14 +7,15 @@ img{
     float: left;
     margin: 1.66%;
     box-shadow: 10px 10px 30px #888888;
-    -webkit-transition: all .6s;
-    transition: all .6s;
+    -webkit-transition: all .8s;
+    transition: all .8s;
 }
 
 img:hover{
-    box-shadow: 6px 10px 30px #888888;
-    -webkit-transition: all .6s;
-    transition: all .6;
+    /* box-shadow: 10px 4px 20px #888888; */
+    box-shadow: 4px 4px 5px #888888;
+    -webkit-transition: all .8s;
+    transition: all .8;
 }
 
 p{
@@ -42,4 +43,24 @@ p.footer-text{
     text-align: center;
     font-size: 1.2em;
     color: black;
+}
+
+button{
+    height: 30px;
+    width: 90px;
+    float: right;
+    border:  none;
+    color: white;
+    background-color: red;
+    border-radius: 2px;
+    box-shadow: 10px 10px 30px #888888;
+    -webkit-transition: all .6s;
+    transition: all .6s;
+    /* padding-bottom: 2px; */
+}
+
+button:hover{
+    box-shadow: 2px 2px 5px #888888;
+    -webkit-transition: all .6s;
+    transition: all .6;
 }
