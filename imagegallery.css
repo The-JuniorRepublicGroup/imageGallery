@@ -1,0 +1,45 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+img{
+    width: 30%;
+    float: left;
+    margin: 1.66%;
+    box-shadow: 10px 10px 30px #888888;
+    -webkit-transition: all .6s;
+    transition: all .6s;
+}
+
+img:hover{
+    box-shadow: 6px 10px 30px #888888;
+    -webkit-transition: all .6s;
+    transition: all .6;
+}
+
+p{
+    margin-left: 1.66%;
+    font-size: 2.8em;
+    padding: 1%;
+}
+
+p.top-header{
+    border-bottom: 1px solid #ccc;
+    width: 96%;
+     margin: auto; 
+}
+
+hr{
+    width: 96.4%;
+    color: #ccc;
+}
+
+.vision{
+    color: red;
+}
+
+p.footer-text{
+    text-align: center;
+    font-size: 1.2em;
+    color: black;
+}
